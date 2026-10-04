@@ -1,0 +1,7 @@
+{
+  "max_cell_temperature_C": 111.19682762350942,
+  "max_cell_superheat_at_101325_outlet_K": 11.215677530793016,
+  "minimum_outlet_absolute_pressure_for_cell_saturation_Pa": 149214.28923033754,
+  "cell_count_above_saturation": 424,
+  "note": "Cell-center check; heated wall may require greater pressure. Paper absolute outlet pressure is unspecified."
+}

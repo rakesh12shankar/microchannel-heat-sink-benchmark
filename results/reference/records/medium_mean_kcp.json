@@ -1,0 +1,51 @@
+{
+  "name": "medium_mean_kcp",
+  "Re": 890,
+  "q_eff_W_cm2": 100,
+  "mesh": "medium",
+  "reports": {
+    "tout": 298.8204115411632,
+    "pin": 33522.74679878094,
+    "pout": 0.0,
+    "heater_tmean": 331.3468535282847,
+    "heater_tmax": 340.0582580566406,
+    "tc1": 313.5991516113281,
+    "tc2": 320.4013977050781,
+    "tc3": 325.74755859375,
+    "tc4": 330.4723205566406,
+    "water_wall_tmax": 325.1818542480469,
+    "mass_in": 0.00047786938029084,
+    "mass_out": -0.0004778693940935538,
+    "heat_in": 21.33333333333339,
+    "heat_top": -0.001161826528688836,
+    "heat_net": 2.533198109722079e-05
+  },
+  "residuals": {
+    "iteration": 533,
+    "continuity": 9.4539e-07,
+    "x_velocity": 3.7177e-10,
+    "y_velocity": 1.5394e-11,
+    "z_velocity": 1.8034e-11,
+    "energy": 4.8014e-13
+  },
+  "mass_imbalance_fraction": 2.8883863184691317e-08,
+  "energy_imbalance_fraction": 1.1874366139322214e-06,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-10-03 22:34:23",
+  "batch_temperature_change_K": 8.144049843394896e-07,
+  "batch_pressure_change_fraction": 1.528471849958275e-08,
+  "outputs_stable": true,
+  "verified_converged": true,
+  "outlet_absolute_pressure_Pa": 200000,
+  "followup_mode": "mean_kcp",
+  "reference_case": "medium",
+  "sensitivity_inputs": {
+    "outlet_absolute_pressure_Pa": 200000,
+    "fixed_inlet_velocity_m_s": 2.9040065765800995,
+    "reference_bulk_mean_T_K": 293.47885313776703,
+    "thermal_conductivity": 0.598650342810726,
+    "specific_heat": 4183.518365832566
+  },
+  "pressure_basis": "Engineering assumption; experimental absolute outlet pressure is not reported."
+}

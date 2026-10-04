@@ -1,0 +1,11 @@
+{
+  "case": "coarse",
+  "date": "2026-10-03",
+  "threads": 1,
+  "fresh_hybrid_initialization": true,
+  "max_sensor_difference_C": 0.0001220703125,
+  "channel_dp_difference_pct": 0.00020783114176867239,
+  "acceptance_max_sensor_C": 0.01,
+  "acceptance_dp_pct": 0.05,
+  "passed": true
+}

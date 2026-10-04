@@ -1,0 +1,16 @@
+{
+  "Re": 890.0,
+  "Tin_K": 288.15,
+  "unit_power_W": 21.333333333333332,
+  "rho": 999.1026214671009,
+  "cp": 4188.460622611205,
+  "kf": 0.5888017338916715,
+  "mu_in": 0.0011375675592526174,
+  "Dh_m": 0.00034894703389830507,
+  "uin_m_s": 2.9040065765800995,
+  "property_basis": "CoolProp liquid water at 15 C, 101325 Pa; viscosity is local T-dependent table",
+  "copper_k": 400.0,
+  "cover_k": 0.2,
+  "slot_air_k": 0.026,
+  "solid_property_basis": "Engineering assumptions, not tabulated in paper"
+}

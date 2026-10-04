@@ -1,0 +1,8 @@
+Copper volume_m3=1.1640623870800001E-07
+AirSlot_1 volume_m3=2.9888000000000015E-09
+AirSlot_2 volume_m3=2.9887999999999957E-09
+AirSlot_3 volume_m3=2.9888000000000081E-09
+Water volume_m3=7.372765092E-09
+Polycarbonate volume_m3=2.6549080759999996E-07
+Six valid non-overlapping solids; total volume agrees with enclosing prism within 1e-7 relative.
+Slot depth is a reconstruction assumption; width rounded from Fig.2. SI units.

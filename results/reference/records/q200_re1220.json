@@ -1,0 +1,39 @@
+{
+  "name": "q200_re1220",
+  "Re": 1220,
+  "q_eff_W_cm2": 200,
+  "mesh": "medium",
+  "reports": {
+    "tout": 303.6998277168094,
+    "pin": 41371.62153230042,
+    "pout": 0.0,
+    "heater_tmean": 367.4489291101239,
+    "heater_tmax": 382.8809814453125,
+    "tc1": 334.0707092285156,
+    "tc2": 346.0989379882813,
+    "tc3": 355.4337463378906,
+    "tc4": 363.7901000976563,
+    "mass_in": 0.0006550569033200276,
+    "mass_out": -0.0006550568677720611,
+    "heat_in": 42.66666666666647,
+    "heat_top": -0.002800685335683673,
+    "heat_net": -3.33874667433065e-05
+  },
+  "residuals": {
+    "iteration": 572,
+    "continuity": 9.2859e-07,
+    "x_velocity": 3.9289e-10,
+    "y_velocity": 1.0685e-11,
+    "z_velocity": 1.5819e-11,
+    "energy": 7.3197e-13
+  },
+  "mass_imbalance_fraction": 5.4266990088914255e-08,
+  "energy_imbalance_fraction": 7.825187517962496e-07,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-09-17 16:32:41",
+  "batch_temperature_change_K": 2.103673466535838e-06,
+  "batch_pressure_change_fraction": 2.7673806777010128e-08,
+  "outputs_stable": true,
+  "verified_converged": true
+}

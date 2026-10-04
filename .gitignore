@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.generated/
+*.msh
+*.cas.h5
+*.dat.h5
+*.ip
+*.trn
+*.log
+*.pdf
+*.zip
+*.env
+serverinfo*
+~$*

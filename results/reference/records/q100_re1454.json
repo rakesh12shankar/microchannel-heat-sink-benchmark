@@ -1,0 +1,39 @@
+{
+  "name": "q100_re1454",
+  "Re": 1454,
+  "q_eff_W_cm2": 100,
+  "mesh": "medium",
+  "reports": {
+    "tout": 294.673882572481,
+    "pin": 62646.45508393463,
+    "pout": 0.0,
+    "heater_tmean": 326.7915468803099,
+    "heater_tmax": 334.178466796875,
+    "tc1": 310.3816833496094,
+    "tc2": 316.2372131347656,
+    "tc3": 320.6866760253906,
+    "tc4": 324.6507568359375,
+    "mass_in": 0.0007806989651043606,
+    "mass_out": -0.0007806989902898499,
+    "heat_in": 21.33333333333339,
+    "heat_top": -0.0006355855410727381,
+    "heat_net": 2.037601428739322e-05
+  },
+  "residuals": {
+    "iteration": 584,
+    "continuity": 9.1015e-07,
+    "x_velocity": 3.7345e-10,
+    "y_velocity": 1.0011e-11,
+    "z_velocity": 1.806e-11,
+    "energy": 4.1667e-13
+  },
+  "mass_imbalance_fraction": 3.2260180240376406e-08,
+  "energy_imbalance_fraction": 9.551256697215548e-07,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-09-17 16:26:07",
+  "batch_temperature_change_K": 7.922938607407559e-07,
+  "batch_pressure_change_fraction": 2.0040294534614014e-08,
+  "outputs_stable": true,
+  "verified_converged": true
+}

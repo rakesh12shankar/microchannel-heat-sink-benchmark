@@ -1,0 +1,51 @@
+{
+  "coarse": {
+    "scale": 1,
+    "depth": 0.003175,
+    "width": 0.0016,
+    "cad": "nominal",
+    "expected_cells": 54824
+  },
+  "medium": {
+    "scale": 1.5,
+    "depth": 0.003175,
+    "width": 0.0016,
+    "cad": "nominal",
+    "expected_cells": 171600
+  },
+  "fine": {
+    "scale": 2.0,
+    "depth": 0.003175,
+    "width": 0.0016,
+    "cad": "nominal",
+    "expected_cells": 438592
+  },
+  "depth_2p5": {
+    "scale": 1.5,
+    "depth": 0.0025,
+    "width": 0.0016,
+    "cad": "depth_2p5_verified",
+    "expected_cells": 171600
+  },
+  "depth_4p0": {
+    "scale": 1.5,
+    "depth": 0.004,
+    "width": 0.0016,
+    "cad": "depth_4p0_verified",
+    "expected_cells": 171600
+  },
+  "width_1p588": {
+    "scale": 1.5,
+    "depth": 0.003175,
+    "width": 0.001588,
+    "cad": "width_1p588",
+    "expected_cells": 171600
+  },
+  "width_1p8": {
+    "scale": 1.5,
+    "depth": 0.003175,
+    "width": 0.0018,
+    "cad": "width_1p8",
+    "expected_cells": 175560
+  }
+}

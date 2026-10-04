@@ -1,0 +1,39 @@
+{
+  "name": "coarse",
+  "Re": 890,
+  "q_eff_W_cm2": 100,
+  "mesh": "coarse",
+  "reports": {
+    "tout": 298.8078216517453,
+    "pin": 33158.44934634185,
+    "pout": 0.0,
+    "heater_tmean": 331.2888220399752,
+    "heater_tmax": 339.9861450195313,
+    "tc1": 313.57666015625,
+    "tc2": 320.2583312988281,
+    "tc3": 325.6514282226563,
+    "tc4": 330.403076171875,
+    "mass_in": 0.0004778693802908401,
+    "mass_out": -0.0004778695666883983,
+    "heat_in": 21.3333333333334,
+    "heat_top": -0.001097410576771088,
+    "heat_net": 0.0001236335150640588
+  },
+  "residuals": {
+    "iteration": 519,
+    "continuity": 7.9757e-07,
+    "x_velocity": 1.2458e-08,
+    "y_velocity": 6.1232e-11,
+    "z_velocity": 2.4425e-10,
+    "energy": 5.2098e-12
+  },
+  "mass_imbalance_fraction": 3.900596394818811e-07,
+  "energy_imbalance_fraction": 5.795321018627738e-06,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-09-17 16:05:03",
+  "batch_temperature_change_K": 1.1909710337931756e-06,
+  "batch_pressure_change_fraction": 8.6216052809915e-08,
+  "outputs_stable": true,
+  "verified_converged": true
+}

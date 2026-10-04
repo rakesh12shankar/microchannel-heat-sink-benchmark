@@ -1,0 +1,4 @@
+-r requirements.txt
+ansys-fluent-core==0.26.0
+gmsh==4.15.2
+h5py==3.12.1

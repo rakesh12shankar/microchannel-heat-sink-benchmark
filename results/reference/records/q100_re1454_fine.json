@@ -1,0 +1,49 @@
+{
+  "name": "q100_re1454_fine",
+  "Re": 1454,
+  "q_eff_W_cm2": 100,
+  "mesh": "fine",
+  "reports": {
+    "tout": 294.6739170740785,
+    "pin": 62937.54118934288,
+    "pout": 0.0,
+    "heater_tmean": 326.9177686598525,
+    "heater_tmax": 334.3250732421875,
+    "tc1": 310.5008544921875,
+    "tc2": 316.3842468261719,
+    "tc3": 320.82763671875,
+    "tc4": 324.7953186035156,
+    "water_wall_tmax": 319.3308410644531,
+    "mass_in": 0.0007806989651043629,
+    "mass_out": -0.000780698902907032,
+    "heat_in": 21.33333333333348,
+    "heat_top": -0.0006695524747945133,
+    "heat_net": -0.0001432868190498482
+  },
+  "residuals": {
+    "iteration": 228,
+    "continuity": 8.5197e-07,
+    "x_velocity": 1.014e-09,
+    "y_velocity": 2.0803e-11,
+    "z_velocity": 3.5752e-11,
+    "energy": 1.4951e-12
+  },
+  "mass_imbalance_fraction": 7.966877582284322e-08,
+  "energy_imbalance_fraction": 6.716569642961587e-06,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-10-03 22:43:52",
+  "batch_temperature_change_K": 3.051757818184342e-05,
+  "batch_pressure_change_fraction": 1.558029419315709e-07,
+  "outputs_stable": true,
+  "verified_converged": true,
+  "outlet_absolute_pressure_Pa": 200000,
+  "followup_mode": "fine",
+  "reference_case": "q100_re1454",
+  "sensitivity_inputs": {
+    "outlet_absolute_pressure_Pa": 200000,
+    "fixed_inlet_velocity_m_s": 4.744298384660072,
+    "reference_bulk_mean_T_K": 291.41194128624045
+  },
+  "pressure_basis": "Engineering assumption; experimental absolute outlet pressure is not reported."
+}

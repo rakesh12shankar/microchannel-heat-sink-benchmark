@@ -1,0 +1,39 @@
+{
+  "name": "depth_2p5",
+  "Re": 890,
+  "q_eff_W_cm2": 100,
+  "mesh": "depth_2p5",
+  "reports": {
+    "tout": 298.8078445064943,
+    "pin": 33455.31968598098,
+    "pout": 0.0,
+    "heater_tmean": 331.4417128604779,
+    "heater_tmax": 340.1665344238281,
+    "tc1": 313.9359436035156,
+    "tc2": 320.5427856445313,
+    "tc3": 325.88720703125,
+    "tc4": 330.5614318847656,
+    "mass_in": 0.00047786938029084,
+    "mass_out": -0.0004778692856168292,
+    "heat_in": 21.33333333333339,
+    "heat_top": -0.001185879600892469,
+    "heat_net": -4.395283727220978e-05
+  },
+  "residuals": {
+    "iteration": 109,
+    "continuity": 9.09e-07,
+    "x_velocity": 5.6827e-10,
+    "y_velocity": 3.0872e-11,
+    "z_velocity": 4.0934e-11,
+    "energy": 8.145e-13
+  },
+  "mass_imbalance_fraction": 1.9811692216156162e-07,
+  "energy_imbalance_fraction": 2.060289247134828e-06,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-09-17 16:13:12",
+  "batch_temperature_change_K": 1.9675524072226835e-06,
+  "batch_pressure_change_fraction": 9.705999346645735e-08,
+  "outputs_stable": true,
+  "verified_converged": true
+}

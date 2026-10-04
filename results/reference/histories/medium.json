@@ -1,0 +1,76 @@
+[
+  {
+    "name": "medium",
+    "Re": 890,
+    "q_eff_W_cm2": 100,
+    "mesh": "medium",
+    "reports": {
+      "tout": 298.8076984679243,
+      "pin": 33475.1821180305,
+      "pout": 0.0,
+      "heater_tmean": 331.5880131631098,
+      "heater_tmax": 340.3553466796875,
+      "tc1": 313.7767639160156,
+      "tc2": 320.6272583007813,
+      "tc3": 326.0138854980469,
+      "tc4": 330.7676391601563,
+      "mass_in": 0.00047786938029084,
+      "mass_out": -0.0004778694419935206,
+      "heat_in": 21.33333333333339,
+      "heat_top": -0.001181858218209575,
+      "heat_net": 0.0002524609513574472
+    },
+    "residuals": {
+      "iteration": 448,
+      "continuity": 9.9614e-07,
+      "x_velocity": 2.7828e-09,
+      "y_velocity": 2.9669e-11,
+      "z_velocity": 5.7593e-11,
+      "energy": 1.0901e-11
+    },
+    "mass_imbalance_fraction": 1.291203896031993e-07,
+    "energy_imbalance_fraction": 1.1834107094880307e-05,
+    "residual_pass": true,
+    "conservation_pass": true,
+    "time": "2026-09-17 15:57:18",
+    "outputs_stable": false
+  },
+  {
+    "name": "medium",
+    "Re": 890,
+    "q_eff_W_cm2": 100,
+    "mesh": "medium",
+    "reports": {
+      "tout": 298.8077062755341,
+      "pin": 33475.18024438518,
+      "pout": 0.0,
+      "heater_tmean": 331.5880178308803,
+      "heater_tmax": 340.3553771972656,
+      "tc1": 313.7767639160156,
+      "tc2": 320.6272583007813,
+      "tc3": 326.0138854980469,
+      "tc4": 330.7676696777344,
+      "mass_in": 0.00047786938029084,
+      "mass_out": -0.0004778694393767188,
+      "heat_in": 21.33333333333339,
+      "heat_top": -0.001181858740457016,
+      "heat_net": 0.0002368404209711628
+    },
+    "residuals": {
+      "iteration": 449,
+      "continuity": 9.798e-07,
+      "x_velocity": 2.68e-09,
+      "y_velocity": 2.8735e-11,
+      "z_velocity": 5.6417e-11,
+      "energy": 1.0517e-11
+    },
+    "mass_imbalance_fraction": 1.2364441247909243e-07,
+    "energy_imbalance_fraction": 1.1101894733023227e-05,
+    "residual_pass": true,
+    "conservation_pass": true,
+    "time": "2026-09-17 15:57:21",
+    "batch_temperature_change_K": 3.051757806815658e-05,
+    "batch_pressure_change_fraction": 5.5971179441704236e-08,
+    "outputs_stable": true
+  }
+]

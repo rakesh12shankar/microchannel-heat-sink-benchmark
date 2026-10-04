@@ -1,0 +1,39 @@
+{
+  "name": "q200_re442",
+  "Re": 442,
+  "q_eff_W_cm2": 200,
+  "mesh": "medium",
+  "reports": {
+    "tout": 331.0669786435189,
+    "pin": 9974.86979489736,
+    "pout": 0.0,
+    "heater_tmean": 392.0475366216515,
+    "heater_tmax": 415.5414123535156,
+    "tc1": 350.6298828125,
+    "tc2": 368.1537780761719,
+    "tc3": 383.04638671875,
+    "tc4": 396.1052551269531,
+    "mass_in": 0.0002373238944815182,
+    "mass_out": -0.0002373238392441088,
+    "heat_in": 42.66666666666647,
+    "heat_top": -0.00573520877594381,
+    "heat_net": -0.000143157675175587
+  },
+  "residuals": {
+    "iteration": 551,
+    "continuity": 8.6804e-07,
+    "x_velocity": 9.8043e-10,
+    "y_velocity": 3.1688e-11,
+    "z_velocity": 4.5519e-11,
+    "energy": 2.5282e-12
+  },
+  "mass_imbalance_fraction": 2.327511501564812e-07,
+  "energy_imbalance_fraction": 3.355258011927836e-06,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-09-17 16:28:21",
+  "batch_temperature_change_K": 1.840492672045002e-05,
+  "batch_pressure_change_fraction": 1.264016294450602e-07,
+  "outputs_stable": true,
+  "verified_converged": true
+}

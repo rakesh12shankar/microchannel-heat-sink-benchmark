@@ -1,0 +1,39 @@
+{
+  "name": "coarse",
+  "Re": 890,
+  "q_eff_W_cm2": 100,
+  "mesh": "coarse",
+  "outlet_absolute_pressure_Pa": 101325,
+  "reports": {
+    "tout": 298.8078830902879,
+    "pin": 33158.51825992572,
+    "pout": 0.0,
+    "heater_tmean": 331.2888625747792,
+    "heater_tmax": 339.9862365722656,
+    "tc1": 313.57666015625,
+    "tc2": 320.2583618164063,
+    "tc3": 325.6514892578125,
+    "tc4": 330.4031982421875,
+    "water_wall_tmax": 325.114013671875,
+    "mass_in": 0.0004778693802908401,
+    "mass_out": -0.0004778693803152294,
+    "heat_in": 21.3333333333332,
+    "heat_top": -0.001097416696842295,
+    "heat_net": 1.169373708087562e-06
+  },
+  "residuals": {
+    "iteration": 147,
+    "continuity": 9.3597e-07,
+    "x_velocity": 2.6062e-10,
+    "y_velocity": 2.4364e-11,
+    "z_velocity": 2.7341e-11,
+    "energy": 5.6163e-14
+  },
+  "mass_imbalance_fraction": 5.10375669718439e-11,
+  "energy_imbalance_fraction": 5.4814392566604806e-08,
+  "outputs_stable": true,
+  "verified_converged": true,
+  "minimum_fluid_saturation_margin_K": 50.399753290525894,
+  "fluid_cells_above_saturation": 0,
+  "conservative_wall_saturation_margin_K": 48.01028217579136
+}

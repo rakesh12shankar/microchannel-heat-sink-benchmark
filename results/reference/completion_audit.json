@@ -1,0 +1,167 @@
+{
+  "count": 20,
+  "audit_date": "2026-10-03",
+  "cases": [
+    {
+      "case": "coarse",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 2522751,
+        "solution.dat.h5": 2300139
+      }
+    },
+    {
+      "case": "medium",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6262110,
+        "solution.dat.h5": 6131763
+      }
+    },
+    {
+      "case": "fine",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 14850658,
+        "solution.dat.h5": 13758473
+      }
+    },
+    {
+      "case": "depth_2p5",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6234929,
+        "solution.dat.h5": 5998366
+      }
+    },
+    {
+      "case": "depth_4p0",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6235011,
+        "solution.dat.h5": 6046966
+      }
+    },
+    {
+      "case": "width_1p588",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6235218,
+        "solution.dat.h5": 6009439
+      }
+    },
+    {
+      "case": "width_1p8",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6279175,
+        "solution.dat.h5": 6140393
+      }
+    },
+    {
+      "case": "q100_re226",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6236019,
+        "solution.dat.h5": 6061373
+      }
+    },
+    {
+      "case": "q100_re1454",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6236019,
+        "solution.dat.h5": 5990638
+      }
+    },
+    {
+      "case": "q200_re442",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6236018,
+        "solution.dat.h5": 6126857
+      }
+    },
+    {
+      "case": "q200_re864",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6236018,
+        "solution.dat.h5": 6020028
+      }
+    },
+    {
+      "case": "q200_re1220",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6236019,
+        "solution.dat.h5": 6031082
+      }
+    },
+    {
+      "case": "q200_re442_p200k",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6236943,
+        "solution.dat.h5": 6112583
+      }
+    },
+    {
+      "case": "q200_re864_copper401",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6263612,
+        "solution.dat.h5": 6079147
+      }
+    },
+    {
+      "case": "q200_re864_mean_mu",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6263623,
+        "solution.dat.h5": 6016529
+      }
+    },
+    {
+      "case": "q200_re864_mean_kcp",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6263612,
+        "solution.dat.h5": 5977525
+      }
+    },
+    {
+      "case": "q200_re864_mean_all",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6263623,
+        "solution.dat.h5": 5999857
+      }
+    },
+    {
+      "case": "medium_mean_kcp",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 6263292,
+        "solution.dat.h5": 5949400
+      }
+    },
+    {
+      "case": "q200_re442_fine",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 14866336,
+        "solution.dat.h5": 13934345
+      }
+    },
+    {
+      "case": "q100_re1454_fine",
+      "verified_numerical_convergence": true,
+      "files": {
+        "solution.cas.h5": 14866337,
+        "solution.dat.h5": 13617366
+      }
+    }
+  ],
+  "interpretation": "Numerical checks passed. Atmospheric q200_re442 fails single-phase consistency. Other phase and validation limitations are documented in Results_Summary.md, Followup_Audit.md, and Followup_Results.md."
+}

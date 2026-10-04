@@ -1,0 +1,78 @@
+[
+  {
+    "name": "q200_re442_fine",
+    "Re": 442,
+    "q_eff_W_cm2": 200,
+    "mesh": "fine",
+    "reports": {
+      "tout": 331.0659021488124,
+      "pin": 9976.934975111446,
+      "pout": 0.0,
+      "heater_tmean": 392.2133441668591,
+      "heater_tmax": 415.7197875976563,
+      "tc1": 350.7841491699219,
+      "tc2": 368.3424987792969,
+      "tc3": 383.2350463867188,
+      "tc4": 396.2854614257813,
+      "water_wall_tmax": 386.4766540527344,
+      "mass_in": 0.0002373238944815181,
+      "mass_out": -0.000237324029813982,
+      "heat_in": 42.66666666666691,
+      "heat_top": -0.005802992715111858,
+      "heat_net": 0.0006125533360048507
+    },
+    "residuals": {
+      "iteration": 210,
+      "continuity": 9.8201e-07,
+      "x_velocity": 4.7112e-09,
+      "y_velocity": 6.4136e-11,
+      "z_velocity": 1.7111e-10,
+      "energy": 5.7656e-12
+    },
+    "mass_imbalance_fraction": 5.702437346208776e-07,
+    "energy_imbalance_fraction": 1.4356718812613606e-05,
+    "residual_pass": true,
+    "conservation_pass": true,
+    "time": "2026-10-03 22:38:24",
+    "outputs_stable": false
+  },
+  {
+    "name": "q200_re442_fine",
+    "Re": 442,
+    "q_eff_W_cm2": 200,
+    "mesh": "fine",
+    "reports": {
+      "tout": 331.066002417644,
+      "pin": 9976.930569324772,
+      "pout": 0.0,
+      "heater_tmean": 392.2133868670848,
+      "heater_tmax": 415.7199096679688,
+      "tc1": 350.7841491699219,
+      "tc2": 368.3424987792969,
+      "tc3": 383.235107421875,
+      "tc4": 396.2855834960938,
+      "water_wall_tmax": 386.476806640625,
+      "mass_in": 0.0002373238944815181,
+      "mass_out": -0.0002373240087790978,
+      "heat_in": 42.66666666666691,
+      "heat_top": -0.005803000550724973,
+      "heat_net": 0.0005157760620093654
+    },
+    "residuals": {
+      "iteration": 211,
+      "continuity": 8.4764e-07,
+      "x_velocity": 4.0057e-09,
+      "y_velocity": 5.5814e-11,
+      "z_velocity": 1.4699e-10,
+      "energy": 4.887e-12
+    },
+    "mass_imbalance_fraction": 4.816100795552638e-07,
+    "energy_imbalance_fraction": 1.2088501453344433e-05,
+    "residual_pass": true,
+    "conservation_pass": true,
+    "time": "2026-10-03 22:38:31",
+    "batch_temperature_change_K": 0.0001220703125,
+    "batch_pressure_change_fraction": 4.415974075176038e-07,
+    "outputs_stable": true
+  }
+]

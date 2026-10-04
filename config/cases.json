@@ -1,0 +1,190 @@
+{
+  "coarse": {
+    "mesh": "coarse",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "medium": {
+    "mesh": "medium",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "fine": {
+    "mesh": "fine",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "depth_2p5": {
+    "mesh": "depth_2p5",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "depth_4p0": {
+    "mesh": "depth_4p0",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "width_1p588": {
+    "mesh": "width_1p588",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "width_1p8": {
+    "mesh": "width_1p8",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q100_re226": {
+    "mesh": "medium",
+    "Re": 226,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q100_re1454": {
+    "mesh": "medium",
+    "Re": 1454,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q200_re442": {
+    "mesh": "medium",
+    "Re": 442,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q200_re864": {
+    "mesh": "medium",
+    "Re": 864,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q200_re1220": {
+    "mesh": "medium",
+    "Re": 1220,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 101325,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q200_re442_p200k": {
+    "mesh": "medium",
+    "Re": 442,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": null
+  },
+  "q200_re864_copper401": {
+    "mesh": "medium",
+    "Re": 864,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 401,
+    "viscosity": "local",
+    "reference_case": "q200_re864"
+  },
+  "q200_re864_mean_mu": {
+    "mesh": "medium",
+    "Re": 864,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "constant",
+    "reference_case": "q200_re864",
+    "mu": 0.0008705240106243862
+  },
+  "q200_re864_mean_kcp": {
+    "mesh": "medium",
+    "Re": 864,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": "q200_re864",
+    "thermal_conductivity": 0.6081599379525825,
+    "specific_heat": 4180.653893699541
+  },
+  "q200_re864_mean_all": {
+    "mesh": "medium",
+    "Re": 864,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "constant",
+    "reference_case": "q200_re864",
+    "mu": 0.0008705240106243862,
+    "thermal_conductivity": 0.6081599379525825,
+    "specific_heat": 4180.653893699541
+  },
+  "medium_mean_kcp": {
+    "mesh": "medium",
+    "Re": 890,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": "medium",
+    "thermal_conductivity": 0.598650342810726,
+    "specific_heat": 4183.518365832566
+  },
+  "q200_re442_fine": {
+    "mesh": "fine",
+    "Re": 442,
+    "heat_flux_W_cm2": 200,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": "q200_re442"
+  },
+  "q100_re1454_fine": {
+    "mesh": "fine",
+    "Re": 1454,
+    "heat_flux_W_cm2": 100,
+    "outlet_absolute_pressure_Pa": 200000,
+    "copper_k": 400.0,
+    "viscosity": "local",
+    "reference_case": "q100_re1454"
+  }
+}

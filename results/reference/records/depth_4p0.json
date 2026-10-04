@@ -1,0 +1,39 @@
+{
+  "name": "depth_4p0",
+  "Re": 890,
+  "q_eff_W_cm2": 100,
+  "mesh": "depth_4p0",
+  "reports": {
+    "tout": 298.8078630764422,
+    "pin": 33502.99348818469,
+    "pout": 0.0,
+    "heater_tmean": 331.7683173464576,
+    "heater_tmax": 340.6144104003906,
+    "tc1": 313.5692749023438,
+    "tc2": 320.7820129394531,
+    "tc3": 326.2117919921875,
+    "tc4": 331.0580749511719,
+    "mass_in": 0.00047786938029084,
+    "mass_out": -0.0004778692232938901,
+    "heat_in": 21.33333333333339,
+    "heat_top": -0.001176165688490361,
+    "heat_net": -6.999908200344684e-05
+  },
+  "residuals": {
+    "iteration": 104,
+    "continuity": 8.7316e-07,
+    "x_velocity": 7.7878e-10,
+    "y_velocity": 3.5169e-11,
+    "z_velocity": 4.2243e-11,
+    "energy": 1.3955e-12
+  },
+  "mass_imbalance_fraction": 3.285352783973464e-07,
+  "energy_imbalance_fraction": 3.2812069689115624e-06,
+  "residual_pass": true,
+  "conservation_pass": true,
+  "time": "2026-09-17 16:15:57",
+  "batch_temperature_change_K": 3.0517578125e-05,
+  "batch_pressure_change_fraction": 1.934281476995691e-07,
+  "outputs_stable": true,
+  "verified_converged": true
+}
